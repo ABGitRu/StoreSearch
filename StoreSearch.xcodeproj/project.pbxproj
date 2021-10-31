@@ -17,6 +17,7 @@
 		0460D36D272BF8D800210145 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0460D36C272BF8D800210145 /* SearchResultCell.xib */; };
 		0460D36F272C04D800210145 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460D36E272C04D800210145 /* SearchResultCell.swift */; };
 		0460D371272C19D400210145 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0460D370272C19D400210145 /* NothingFoundCell.xib */; };
+		04FFA197272E883D00245B02 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FFA196272E883D00245B02 /* LoadingCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0460D36C272BF8D800210145 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
 		0460D36E272C04D800210145 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		0460D370272C19D400210145 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
+		04FFA196272E883D00245B02 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				0460D347272316D700210145 /* AppDelegate.swift */,
 				0460D349272316D700210145 /* SceneDelegate.swift */,
 				0460D34B272316D700210145 /* SearchViewController.swift */,
+				04FFA196272E883D00245B02 /* LoadingCell.xib */,
 				0460D370272C19D400210145 /* NothingFoundCell.xib */,
 				0460D36E272C04D800210145 /* SearchResultCell.swift */,
 				0460D36C272BF8D800210145 /* SearchResultCell.xib */,
@@ -139,6 +142,7 @@
 			files = (
 				0460D354272316DF00210145 /* LaunchScreen.storyboard in Resources */,
 				0460D351272316DF00210145 /* Assets.xcassets in Resources */,
+				04FFA197272E883D00245B02 /* LoadingCell.xib in Resources */,
 				0460D36D272BF8D800210145 /* SearchResultCell.xib in Resources */,
 				0460D371272C19D400210145 /* NothingFoundCell.xib in Resources */,
 				0460D34F272316D700210145 /* Main.storyboard in Resources */,
