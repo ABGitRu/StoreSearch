@@ -17,6 +17,7 @@
 		0460D36F272C04D800210145 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460D36E272C04D800210145 /* SearchResultCell.swift */; };
 		0460D371272C19D400210145 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0460D370272C19D400210145 /* NothingFoundCell.xib */; };
 		04FFA197272E883D00245B02 /* LoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FFA196272E883D00245B02 /* LoadingCell.xib */; };
+		04FFA199272ECB0000245B02 /* UIImageView+DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFA198272ECB0000245B02 /* UIImageView+DownloadImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0460D36E272C04D800210145 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
 		0460D370272C19D400210145 /* NothingFoundCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
 		04FFA196272E883D00245B02 /* LoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingCell.xib; sourceTree = "<group>"; };
+		04FFA198272ECB0000245B02 /* UIImageView+DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				0460D347272316D700210145 /* AppDelegate.swift */,
 				0460D349272316D700210145 /* SceneDelegate.swift */,
 				0460D34B272316D700210145 /* SearchViewController.swift */,
+				04FFA198272ECB0000245B02 /* UIImageView+DownloadImage.swift */,
 				04FFA196272E883D00245B02 /* LoadingCell.xib */,
 				0460D370272C19D400210145 /* NothingFoundCell.xib */,
 				0460D36E272C04D800210145 /* SearchResultCell.swift */,
@@ -154,6 +157,7 @@
 			files = (
 				0460D34C272316D700210145 /* SearchViewController.swift in Sources */,
 				0460D348272316D700210145 /* AppDelegate.swift in Sources */,
+				04FFA199272ECB0000245B02 /* UIImageView+DownloadImage.swift in Sources */,
 				0460D36B272BB52800210145 /* SearchResult.swift in Sources */,
 				0460D34A272316D700210145 /* SceneDelegate.swift in Sources */,
 				0460D36F272C04D800210145 /* SearchResultCell.swift in Sources */,
