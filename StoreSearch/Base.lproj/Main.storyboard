@@ -33,6 +33,27 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="Pot-XO-NQc"/>
                                 </connections>
                             </searchBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="zd9-uf-JUy">
+                                <rect key="frame" x="0.0" y="56" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" id="BLO-1G-A15">
+                                        <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="alu-oJ-w1M">
+                                            <rect key="frame" x="16" y="5.5" width="343" height="33"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <segments>
+                                                <segment title="All"/>
+                                                <segment title="Music"/>
+                                                <segment title="Software"/>
+                                                <segment title="E-books"/>
+                                            </segments>
+                                            <connections>
+                                                <action selector="segmentChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="LP1-LM-w4w"/>
+                                            </connections>
+                                        </segmentedControl>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -43,11 +64,13 @@
                             <constraint firstAttribute="bottom" secondItem="xzb-OG-tBg" secondAttribute="bottom" id="IVW-xs-7Hc"/>
                             <constraint firstAttribute="trailing" secondItem="xzb-OG-tBg" secondAttribute="trailing" id="NTc-Ve-Kx0"/>
                             <constraint firstItem="xzb-OG-tBg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="WzW-Fh-KNF"/>
+                            <constraint firstItem="zd9-uf-JUy" firstAttribute="top" secondItem="qr1-sC-SgW" secondAttribute="bottom" constant="5" id="eIw-es-zon"/>
                             <constraint firstAttribute="trailing" secondItem="qr1-sC-SgW" secondAttribute="trailing" id="zAg-rw-A31"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="searchBar" destination="qr1-sC-SgW" id="pyv-bu-ndu"/>
+                        <outlet property="segmentedControl" destination="alu-oJ-w1M" id="zQi-bV-cbV"/>
                         <outlet property="tableView" destination="xzb-OG-tBg" id="wJi-H4-IYt"/>
                     </connections>
                 </viewController>
